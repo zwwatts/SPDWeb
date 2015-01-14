@@ -1,0 +1,19 @@
+.h, .h a:link, .h a:active, .h a:visited, .h a:hover {
+	text-align: center;
+	color: #7f7f7f;
+	font-size: 35px;
+	font-family: Georgia, serif;
+	width: 1200px;
+	margin-left: auto;
+    margin-right: auto;
+	text-decoration:bold;
+	text-transform: uppercase;
+	font-style:italic;
+}
+.h-title {}
+
+.h-subtitle, .h-subtitle a:link, .h-subtitle a:visited, .h-subtitle a:hover, .h-subtitle a:active {
+	font-family: "Brush Script MT", cursive;
+	color: #BDC2C8;
+	font-size: 30px;
+}

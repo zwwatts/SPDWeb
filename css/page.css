@@ -1,0 +1,161 @@
+.panel {
+	width: 1200px;
+	background-color: #0D0D0D;
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius:7px;
+}
+.panel table {
+	width: 100%;
+	padding: 5px;
+	text-align: center;
+	border-collapse: collapse;
+}
+.panel td {
+	padding-bottom: 10px;
+}
+
+.text, .text a:link, .text a:visited  {
+	color: #BDC2C8;
+	text-align: left;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 15px;
+	letter-spacing: 0px;
+	text-transform: none;
+	text-decoration:none;
+	margin-left: 15px;
+}
+
+.text a:hover, .text a:active {
+	color:  #e4e6e9;
+}
+
+.textTitle, .textTitle a:link, .textTitle a:visited {
+	color: #BDC2C8;
+	text-align:left !important;
+	font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	font-size: 16px;
+	letter-spacing: 0px;
+	text-transform: bold;
+	text-decoration:none;
+	margin-left: 15px;
+}
+.textTitle a:hover, .textTitle a:active {
+	color:  #e4e6e9;
+}
+
+#composite {
+	border: 5px;
+}
+#composite .lg {
+	height: 235px;
+	width: 235px;
+}
+#composite .sm {
+	height: 195px;
+	width: 195px;
+}
+#composite .name td, #composite .position td {
+	margin-bottom: 0px;
+	cell-padding: 0px;
+	'padding-bottom: 0px;
+	padding: 2px;
+	border-spacing: 10px;
+	border-collapse: separate;
+}
+#composite .img td {
+	background-color: transparent;
+	height: 95px;
+}
+#composite .name td {
+	color: white;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-transform: Capitalize;
+	font-size: 14px;
+	background-color: #660000;
+	border: 3px;
+	border-color: black;
+}
+#composite .position td {
+	color: white;
+	text-align: center;
+	font-family: Tahoma, Geneva, sans-serif;
+	text-transform: capitalize;
+	font-size: 11px;
+	font-style:italic;
+	background-color: #660000;
+	padding-top: 0px;
+}
+
+.icon img{
+	height: 25px;
+	width: 25px;
+	text-align: right;
+}
+
+.preview img {
+	width: 150px;
+	max-height: 150px;
+	border: 1px solid #e4e6e9;
+}
+
+.center {
+	margin-left: auto;
+    	margin-right: auto;
+}
+
+.left {
+	float: left;
+}
+
+.third  div{
+	float: left;
+	width: 400px;
+}
+
+.third img {
+	width: 85px;
+}
+
+.numberbar div {
+	float: left;
+	width: 400px;
+}
+
+.numberbar .number {
+	color: #a80000;
+	text-align: left;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 50px;
+	text-transform: none;
+	text-decoration:none;
+	font-weight: bold;
+}
+
+.numberbar .shortdesc {
+	color: #BDC2C8;
+	text-align: left;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 30px;
+	text-transform: none;
+	text-decoration:none;
+	font-weight: none;
+	text-transform: uppercase;
+}
+
+.numberbar .longdesc {
+	color: #BDC2C8;
+	text-align: left;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 14px;
+	text-transform: none;
+	text-decoration:none;
+	font-weight: none;
+}
+
+.border{
+	border: 1px solid #e4e6e9;
+}
