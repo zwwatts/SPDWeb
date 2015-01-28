@@ -80,6 +80,9 @@ blockquote p {
   color: #BDC2C8;
   text-align: left;
 }
+blockquote:hover{
+	color : red;
+}
  
  
 

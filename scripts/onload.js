@@ -9,6 +9,7 @@ $( document ).ready(function() {
 				$("#tabLinks").hide();
 				$("#tabPledges").hide();
 				$("#tabDigital").hide();
+				$("#tabFormal").hide();
 				
 				setHover("facebook", $("#facebook"));
 				setHover("twitter", $("#twitter"));
