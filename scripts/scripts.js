@@ -13,4 +13,18 @@ function toggleTab(e){
 	$(".page").hide();
 	e.fadeIn(750);
 }
+function scrolled(scrollPx){
 
+		 
+
+
+}
+$(window).scroll(function(){
+		$("#smallsigphi").toggle(false);
+		var p = $("#subtitle").offset();
+		console.log(p.top);																				   
+		if($(window).scrollTop() > p.top)
+		{
+			$("#smallsigphi").toggle(true);
+		}
+});
