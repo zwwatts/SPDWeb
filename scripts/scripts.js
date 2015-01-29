@@ -13,12 +13,8 @@ function toggleTab(e){
 	$(".page").hide();
 	e.fadeIn(750);
 }
-function scrolled(scrollPx){
-
-		 
 
 
-}
 $(window).scroll(function(){
 		$("#smallsigphi").toggle(false);
 		var p = $("#subtitle").offset();
